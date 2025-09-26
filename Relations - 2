@@ -1,0 +1,14 @@
+The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+
+Join
+Cartesian product
+Intersection
+Set difference
+Answer: Cartesian product
+Explanation: 
+
+Cartesian Product (×):
+
+Combines every tuple from the first relation with every tuple from the second relation.
+
+No matching condition is needed — all possible pairs appear.
