@@ -1,0 +1,46 @@
+Using which language can a user request information from a database ?
+ 
+Query
+Relational
+Structural
+Compiler
+Answer: Query(DQL)
+Explanation: A Query Language is used to request information from a database.
+
+Query: A statement written by the user to retrieve or manipulate data.
+
+Example: SQL (Structured Query Language) is the most popular query language.
+
+Example SQL query:
+
+SELECT Name, Age FROM Student WHERE Age > 18;
+
+
+Relational: Refers to the relational model of databases (tables, rows, columns), not the language itself.
+
+Structural: Not a database language — possibly confused with “Data Definition Language (DDL)” structure.
+
+Compiler: Converts code into machine language; unrelated to requesting data from a database.
+
+✅ So, when a user wants to request information, they write a query.
+Key Takeaways for Exams / Interviews
+
+Query = Request data from a database.
+
+SQL is the most widely used query language (Structured Query Language).
+
+Types of SQL commands you might be asked about:
+
+DQL (Data Query Language): SELECT (used to request data)
+
+DML (Data Manipulation Language): INSERT, UPDATE, DELETE
+
+DDL (Data Definition Language): CREATE, ALTER, DROP
+
+Remember: User interaction with the database is always through queries.
+
+Interview Tip:
+
+They might ask: “What type of language lets users request data?” → Answer: Query / DQL.
+
+They may differentiate query language vs programming language vs DDL.
