@@ -1,0 +1,28 @@
+Consider the following data table named Student.
+
+Student Name    Number  Sex  
+Ben             3412    M  
+Dan             1234    M  
+Nel             2341    F  
+What is the count of rows returned in the following relational selection?
+σ(Number<3000)(Student)
+
+Only enter a single integer. Do not include any extra spaces or newlines.
+Answer:2
+Explanation: Relational Selection (σ condition)
+
+Definition: Choose rows from a table that satisfy a given condition.
+
+SQL Link: SELECT * FROM Student WHERE Number < 3000;
+
+Important: Pay attention to:
+
+Comparison operators (<, >, =, <=, >=).
+
+Data types—ensure numeric comparisons are not accidentally string comparisons.
+
+Interview Angle:
+
+Know how the WHERE clause filters rows.
+
+Understand indexing: if Number is indexed, selection is faster.
