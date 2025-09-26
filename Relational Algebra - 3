@@ -1,0 +1,14 @@
+Which is a join condition contains an equality operator?
+
+Equijoins
+Cartesian
+Natural
+Left
+Answer:Equijoins
+Explaination: Equijoin: Matches rows where a column from one table equals a column from another table (=).
+
+Cartesian join: Returns all possible combinations of rows (no condition).
+
+Natural join: Implicitly matches columns with the same name (also uses equality internally, but it’s considered a special case of equijoin).
+
+Left join: Includes all rows from the left table and matches from the right; it can have any condition, not necessarily equality.
