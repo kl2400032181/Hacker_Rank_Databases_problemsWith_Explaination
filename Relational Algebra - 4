@@ -1,0 +1,17 @@
+In precedence of set operators the expression is evaluated from:
+
+Depends on the expression
+Left to right
+Right to left
+From user specification
+Answer: Left to right 
+Explanation: Key Takeaway for Exams / Interviews
+
+If the question asks “In precedence of set operators, expressions are evaluated …”, many textbooks/MCQs accept “Left to right” because UNION, EXCEPT, and multiple same operators are evaluated left to right.
+
+But technically, mixed operators obey precedence rules, and parentheses can override.
+INTERSECT has higher precedence → evaluated first
+
+Then UNION with the next query
+
+So here, operator precedence matters, but for operators of the same type, evaluation is left to right.
