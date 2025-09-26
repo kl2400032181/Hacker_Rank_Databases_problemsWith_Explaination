@@ -1,0 +1,2 @@
+# Hacker_Rank_Databases_problemsWith_Explaination
+DataBases problems with explanation
