@@ -1,0 +1,52 @@
+Which one of the following is a procedural language ?
+
+Domain relational calculus
+Tuple relational calculus
+Relational algebra
+Query language
+ChatGPT said:
+
+The correct answer is:
+
+Relational algebra ✅
+
+Explanation
+
+In database theory:
+
+Procedural Language:
+
+Specifies how to get the result.
+
+You tell the database step by step what operations to perform.
+
+Non-Procedural Language:
+
+Specifies what result is needed, not how to compute it.
+
+The system figures out the procedure.
+
+Examples from your options:
+
+Option	Procedural / Non-Procedural	Explanation
+Domain Relational Calculus	Non-Procedural	You describe what you want, not how to get it.
+Tuple Relational Calculus	Non-Procedural	Declarative; specifies the properties of the desired result.
+Relational Algebra	Procedural	Specifies a sequence of operations (select, project, join, union, etc.) to get the result.
+Query Language (like SQL)	Non-Procedural	You specify what to retrieve; the DBMS decides the execution plan.
+Key Takeaways for Exams / Interviews
+
+Procedural vs Non-Procedural:
+
+Procedural: You tell how to compute (Relational Algebra).
+
+Non-Procedural: You tell what you want (Relational Calculus, SQL).
+
+Relational Algebra = Step-by-step operations → Procedural → used as foundation for query optimization.
+
+Interview Tip:
+
+If asked “Which is procedural?”, think “Step by step operations” → Relational Algebra.
+
+Tuple/Domain Calculus = Declarative / Non-Procedural.
+
+This distinction is important for query processing, optimization, and database theory questions.
