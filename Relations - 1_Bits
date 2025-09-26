@@ -1,0 +1,17 @@
+The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+ 
+Select
+Join
+Union
+Intersection
+Answer:Join
+Explanation: 
+Key Takeaways for Exams / Interviews
+
+Join = Combining tables row by row using a common attribute.
+
+Union / Intersection = Set operations on rows, do not merge columns.
+
+Select = Row filtering, not combining tables.
+
+Interview Tip: If a question says “merge pairs of tuples from two relations”, answer = Join.
